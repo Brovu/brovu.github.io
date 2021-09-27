@@ -1,0 +1,92 @@
+/* Tablet & Moblie */
+@media (max-width: 1024px) {
+
+    #content .about-text {
+        font-size: 23px;
+    }
+ 
+ .btn {
+     padding: 18px 29px;
+ }
+ #footer {
+     letter-spacing: 8px;
+ }
+
+ #footer .copyright {
+     margin-top: 20px;
+ }
+
+ .contact-info {
+     line-height: 2.0;
+ }
+
+}
+
+
+
+/*  Moblie */
+@media (max-width: 740px) {
+
+    .s-col-full,
+    .s-full-width
+     {
+        width: 100% !important;
+    }
+    #nav {
+        display: block;
+    }
+
+    #nav li a {
+        display: block;
+    }
+    
+    #nav li a:hover {
+        background-color: gray;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav .subnav {
+       /*  display: block; */
+        position: initial;
+        background-color: #ccc;
+        color: white;
+    }
+
+    #nav .subnav a {
+        color: white;
+        padding: 6px 61px;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    .s-mp-16 {
+        margin-bottom: 16px;
+    }
+
+    
+    #header .search-btn {
+        display: none;
+    }
+   #header .bars-btn {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+    #nav > li:first-child {
+        display: inline-block;
+   }
+   #header {
+       overflow: hidden;
+   }
+}
